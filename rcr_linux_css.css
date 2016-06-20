@@ -2,7 +2,18 @@
 
 * {
   font-family: Verdana,sans-serif;
+}
+
+* p {
   font-size: 1em;
+}
+
+strong {
+  font-weight: normal;
+}
+
+em {
+  font-style: normal;
 }
 
 /* Defining header properties */
@@ -11,8 +22,8 @@
   border-radius: 20px;
   background-color: #E41414;
   width: 99,5%;
-  height:85px;
-  color: #b2b2b2;
+  height:110px;
+  color: #cccccc;
   padding-top: 2px;
   padding-bottom: 2px;
   text-align: center;
@@ -20,4 +31,13 @@
 
 #header h1 {
   font-size: 1,125em;
+}
+
+/* Defining intro properties */
+
+#intro {
+  border-radius: 20px;
+  background-color: #ec5a5a;
+  width: 99,5%;
+  color : #cccccc;
 }

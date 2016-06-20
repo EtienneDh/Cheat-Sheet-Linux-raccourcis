@@ -4,10 +4,6 @@
   font-family: Verdana,sans-serif;
 }
 
-* p {
-  font-size: 1em;
-}
-
 strong {
   font-weight: normal;
 }
@@ -39,5 +35,10 @@ em {
   border-radius: 20px;
   background-color: #ec5a5a;
   width: 99,5%;
+  height: 45px;
   color : #cccccc;
+  text-align: center;
+  margin-top: 5px;
+  padding-top: 6px;
+  padding-bottom: 14px;
 }

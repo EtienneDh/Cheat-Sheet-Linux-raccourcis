@@ -44,6 +44,7 @@ em {
 
 nav {
     float: left;
+    /*display: block;*/
     margin-top: 1%;
     width: 15%;
     border-radius: 20px;
@@ -52,6 +53,7 @@ nav {
 }
 #main {
     float: right;
+    /*display: block;*/
     margin-top: 1%;
     width: 80%;
     text-align: left;
@@ -69,23 +71,31 @@ nav {
 
 /* Responsive for smartphones */
 
-@media handheld and (max-width:920px) {
+@media handheld, screen and (max-width:920px) {
+
     nav {
-        clear:both;
-        position:fixed;
+
         display: block;
+        /*position:fixed;*/
         margin-top: 1%;
-        width: 99,5%;
+        width: auto;
         border-radius: 20px;
         background-color: #f4a1a1;
         color: #f4f4f4;
     }
+
+    nav li {
+      display:inline-block;
+    }
+
+
+
     #main {
-        clear:both;
+
         display: block;
         margin-top: 1%;
-        width: 99,5%;
-        text-align: center;
+        width:auto;
+        text-align: justify;
         border: 2px solid #f4a1a1;
         border-radius: 20px;
         color: #33333;

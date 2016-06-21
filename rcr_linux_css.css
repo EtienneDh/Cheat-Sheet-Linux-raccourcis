@@ -58,8 +58,12 @@ nav {
 #main {
   float:right;
   margin-top: 1%;
-  margin-left: 1%;
-  width: 75%:
+  width: 80%;
   text-align: left;
+  border: 1px solid black;
 
+}
+
+#main strong {
+  font-weight:bold;
 }

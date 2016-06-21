@@ -1,76 +1,94 @@
 /* Defining global settings */
 
 * {
-  font-family: Verdana,sans-serif;
+    font-family: Verdana, sans-serif;
 }
-
 strong {
-  font-weight: normal;
+    font-weight: normal;
 }
-
 em {
-  font-style: normal;
+    font-style: normal;
 }
 
 /* Defining header properties */
 
 #header {
-  border-radius: 20px;
-  background-color: #E41414;
-  width: 99,5%;
-  height:15%;
-  color: #cccccc;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  text-align: center;
+    border-radius: 20px;
+    background-color: #E41414;
+    width: 99, 5%;
+    height: 15%;
+    color: #cccccc;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
 }
-
 #header h1 {
-  font-size: 1,125em;
+    font-size: 1, 125em;
 }
 
 /* Defining intro properties */
 
 #intro {
-  border-radius: 20px;
-  background-color: #ec5a5a;
-  width: 99,5%;
-  height: 10%;
-  color : #cccccc;
-  text-align: center;
-  margin-top: 5px;
-  padding-top: 6px;
-  padding-bottom: 14px;
+    border-radius: 20px;
+    background-color: #ec5a5a;
+    width: 99, 5%;
+    height: 10%;
+    color: #cccccc;
+    text-align: center;
+    margin-top: 5px;
+    padding-top: 6px;
+    padding-bottom: 14px;
 }
 
 /* Defining main parts: nav on the left and main on the right */
 
 nav {
-  float: left;
-  margin-top: 1%;
-  width: 15%;
-  border-radius: 20px;
-  background-color: #f4a1a1;
-  color: #f4f4f4;
-
+    float: left;
+    margin-top: 1%;
+    width: 15%;
+    border-radius: 20px;
+    background-color: #f4a1a1;
+    color: #f4f4f4;
 }
-
 #main {
-  float:right;
-  margin-top: 1%;
-  width: 80%;
-  text-align: left;
-  border: 2px solid #f4a1a1;
-  border-radius: 20px;
-  color: #33333;
-  padding-left: 2px;
-
+    float: right;
+    margin-top: 1%;
+    width: 80%;
+    text-align: left;
+    border: 2px solid #f4a1a1;
+    border-radius: 20px;
+    color: #33333;
+    padding-left: 2px;
 }
-
 #main strong {
-  font-weight:bold;
+    font-weight: bold;
+}
+#main h2 {
+    color: #f4a1a1;
 }
 
-#main h2 {
-  color:#f4a1a1;
+/* Responsive for smartphones */
+
+@media handheld and (max-width:920px) {
+    nav {
+        clear:both;
+        position:fixed;
+        display: block;
+        margin-top: 1%;
+        width: 99,5%;
+        border-radius: 20px;
+        background-color: #f4a1a1;
+        color: #f4f4f4;
+    }
+    #main {
+        clear:both;
+        display: block;
+        margin-top: 1%;
+        width: 99,5%;
+        text-align: center;
+        border: 2px solid #f4a1a1;
+        border-radius: 20px;
+        color: #33333;
+        padding-left: 2px;
+    }
 }

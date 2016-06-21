@@ -43,6 +43,7 @@ em {
   padding-bottom: 14px;
 }
 
+/* Defining main parts: nav on the left and main on the right */
 
 nav {
   float: left;
@@ -54,6 +55,11 @@ nav {
 
 }
 
-# main {
-  
+#main {
+  float:right;
+  margin-top: 1%;
+  margin-left: 1%;
+  width: 75%:
+  text-align: left;
+
 }

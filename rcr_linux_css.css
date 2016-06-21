@@ -60,10 +60,17 @@ nav {
   margin-top: 1%;
   width: 80%;
   text-align: left;
-  border: 1px solid black;
+  border: 2px solid #f4a1a1;
+  border-radius: 20px;
+  color: #33333;
+  padding-left: 2px;
 
 }
 
 #main strong {
   font-weight:bold;
+}
+
+#main h2 {
+  color:#f4a1a1;
 }
